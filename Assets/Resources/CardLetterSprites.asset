@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 827241ddebc5a4a99ab8b422bbc6db82, type: 3}
+  m_Name: CardLetterSprites
+  m_EditorClassIdentifier: 
+  a: {fileID: 21300000, guid: ece6098fef3e74bb0b04123581bcbefb, type: 3}
+  b: {fileID: 21300000, guid: 87ab0a5fa02a54c8eba248bedf889cf9, type: 3}
+  c: {fileID: 21300000, guid: ebb2860535e634115a44c8d89063090d, type: 3}
+  d: {fileID: 21300000, guid: 50c37e0d41d534e78aa86f6da5dcfb3d, type: 3}
+  e: {fileID: 21300000, guid: ece6098fef3e74bb0b04123581bcbefb, type: 3}
+  f: {fileID: 21300000, guid: eec70356ee25f45399507c9c1e1d2f8e, type: 3}
+  g: {fileID: 21300000, guid: 6120c516a029d4918a9c464a04db5053, type: 3}
+  h: {fileID: 21300000, guid: 870e3dd8ea8624ee8b95bbe1102d7156, type: 3}
+  i: {fileID: 21300000, guid: 2eeef5c1253b04582be9fba9e7b3fe8e, type: 3}
+  j: {fileID: 21300000, guid: 1fda37d184bc6420b8d80262e54d7194, type: 3}
+  k: {fileID: 21300000, guid: 6120c516a029d4918a9c464a04db5053, type: 3}
+  l: {fileID: 21300000, guid: 2eeef5c1253b04582be9fba9e7b3fe8e, type: 3}
+  m: {fileID: 21300000, guid: 8d1a55154805049b69e10ad62e0560d0, type: 3}
+  n: {fileID: 21300000, guid: 85ddc72aa77704f5e85cdcc0566fe967, type: 3}
+  o: {fileID: 21300000, guid: ebb2860535e634115a44c8d89063090d, type: 3}
+  p: {fileID: 21300000, guid: 50c37e0d41d534e78aa86f6da5dcfb3d, type: 3}
+  q: {fileID: 21300000, guid: 87ab0a5fa02a54c8eba248bedf889cf9, type: 3}
+  r: {fileID: 21300000, guid: 1fda37d184bc6420b8d80262e54d7194, type: 3}
+  s: {fileID: 21300000, guid: 24873d1d3877d42b99f5b023b40a8cc2, type: 3}
+  t: {fileID: 21300000, guid: eec70356ee25f45399507c9c1e1d2f8e, type: 3}
+  u: {fileID: 21300000, guid: 85ddc72aa77704f5e85cdcc0566fe967, type: 3}
+  v: {fileID: 21300000, guid: 24873d1d3877d42b99f5b023b40a8cc2, type: 3}
+  w: {fileID: 21300000, guid: 8d1a55154805049b69e10ad62e0560d0, type: 3}
+  x: {fileID: 21300000, guid: 160e65fda193a45aba447286f8753cfb, type: 3}
+  y: {fileID: 21300000, guid: 870e3dd8ea8624ee8b95bbe1102d7156, type: 3}
+  z: {fileID: 21300000, guid: 160e65fda193a45aba447286f8753cfb, type: 3}
