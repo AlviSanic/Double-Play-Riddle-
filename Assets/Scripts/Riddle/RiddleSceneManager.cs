@@ -19,6 +19,8 @@ namespace Riddle {
         [SerializeField]
         private TextMeshProUGUI riddleIdText;
         [SerializeField]
+        private GameObject riddleIdDisplayOverride;
+        [SerializeField]
         private TextMeshProUGUI timerText;
         [SerializeField]
         private GameObject tutorialText;
@@ -66,6 +68,9 @@ namespace Riddle {
             debugDays = 0;
             isForScreenshot = false;
 #endif
+            if (riddleIdDisplayOverride != null) {
+                riddleIdDisplayOverride.SetActive(false);
+            }
             StartCoroutine(RiddleProvider.GetRiddleOfTheDay(debugDays, (item) => {
                 _isRiddleWon = false;
                 _currentRiddle = item.riddle;
@@ -75,7 +80,8 @@ namespace Riddle {
                 riddleIdText.text = $"RIDDLE #{_currentRiddleId}";
                 riddleText.text = _currentRiddle;
                 riddleExitText.text = $"The answer is <b>{_currentAnswer.ToUpper()}</b>.\nSee you tomorrow for a new riddle!";
-                _riddleRoundPresenter = new RiddleRoundPresenter(startButton, wordHolder, tutorialText, timerText.gameObject, riddleIdText.gameObject, riddleText, _currentAnswer, this);
+                var riddleIdDisplayTarget = riddleIdDisplayOverride != null ? riddleIdDisplayOverride : riddleIdText.gameObject;
+                _riddleRoundPresenter = new RiddleRoundPresenter(startButton, wordHolder, tutorialText, timerText.gameObject, riddleIdDisplayTarget, riddleText, _currentAnswer, this);
 
                 // Listen first before setting the answer so the events of wordHolder will invoke
                 // sfxHandler's methods.
